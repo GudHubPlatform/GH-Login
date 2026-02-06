@@ -331,7 +331,7 @@ class GudhubLogin extends HTMLElement {
         let { GudHub } = GudHubLibrary;
 
         let gudhub = await new GudHub('', {
-            server_url: 'https://gudhub.com/GudHub_Test'
+            server_url: 'https://app.gudhub.com/GudHub',
         });
 
         let response;
